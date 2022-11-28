@@ -28,7 +28,7 @@ const Crypto = () => {
     return (
         <div className='container-fluid'>
             <div className='row p-2 m-3 text-center justify-content-center'>
-                {crypto.map((item, i) => {
+                {crypto?.map((item, i) => {
                     return (
                        <Coin key={i} coin={item} />
                     )
